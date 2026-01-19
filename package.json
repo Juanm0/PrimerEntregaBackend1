@@ -1,22 +1,26 @@
 {
   "name": "primerentregabackend1",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "API de productos y carritos - Entrega 1 Backend",
+  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Juanm0/PrimerEntregaBackend1.git"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "products",
+    "carts"
+  ],
+  "author": "Juan Navarro",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/Juanm0/PrimerEntregaBackend1/issues"
+  "dependencies": {
+    "express": "^4.19.2"
   },
-  "homepage": "https://github.com/Juanm0/PrimerEntregaBackend1#readme"
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
