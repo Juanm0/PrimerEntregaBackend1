@@ -1,5 +1,5 @@
-import http from 'node:http'
 import express from 'express'
 
+const app = express()
 
-console.log("hola");
+app.get('')
